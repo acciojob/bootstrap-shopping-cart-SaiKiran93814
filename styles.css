@@ -1,10 +1,13 @@
 /*  your css code here. If applicable */
 <style>
-    .block-heading {
-      text-align: center;
-      color: #3b99e0;
-      margin-bottom: 40px;
-    }
+      .block-heading {
+    text-align: center !important; /* this guarantees it overrides Bootstrap */
+    color: #3b99e0;
+  }
+
+  .block-heading p {
+    text-align: center !important;
+  }
 
     .product {
       border-bottom: 1px solid #dee2e6;
